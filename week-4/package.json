@@ -9,12 +9,14 @@
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1"
   },
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "node ./node_modules/lite-server/bin/lite-server"
+    "lite": "node ./node_modules/lite-server/bin/lite-server",
+    "scss": "node-sass -o css/ css/"
   },
   "keywords": [],
   "author": "",
